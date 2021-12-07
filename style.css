@@ -316,6 +316,15 @@ a {
   margin-bottom: 2rem;
 }
 
+.required {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
 @media only screen and (max-width: 82em) {
   .offer-img {
     width: 35rem;
@@ -416,7 +425,6 @@ a {
     width: 20rem;
   }
 }
-
 
 @media only screen and (max-width: 34em) {
 }
