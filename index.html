@@ -15,6 +15,84 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script src="app.js"></script>
+    <header class="header">
+      <a href="../index.html"
+        ><img src="/imgs/logo.png" alt="logo" class="logo"
+      /></a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="active_nav__item"><a href="index.html">Home</a></li>
+          <li class="nav__item">
+            <a href="./courses/index.html">Courses</a>
+          </li>
+          <li class="nav__item">
+            <a href="./webinar/index.html">Webinar</a>
+          </li>
+          <li class="nav__item">
+            <a href="./pricing/index.html">Pricing</a>
+          </li>
+          <li class="nav__item"><a href="./why/index.html">Why</a></li>
+        </ul>
+      </nav>
+      <div class="langs">
+        <button><img src="/imgs/usa.png" alt="Set Eng Lang" /></button
+        ><button><img src="/imgs/ru.png" alt="Set Ru Lang" /></button
+        ><button><img src="/imgs/uz.png" alt="Set Uz Lang" /></button>
+      </div>
+      <div class="mobile__burger">
+        <span class="mobile__burger--line"></span>
+      </div>
+      <nav class="mobile__nav">
+        <ul class="mobile__nav__list">
+          <li class="active_mobile__nav__item"><a href="index.html">Home</a></li>
+          <li class="mobile__nav__item">
+            <a href="./courses/index.html">Courses</a>
+          </li>
+          <li class="mobile__nav__item">
+            <a href="./webinar/index.html">Webinar</a>
+          </li>
+          <li class="mobile__nav__item">
+            <a href="./pricing/index.html">Pricing</a>
+          </li>
+          <li class="mobile__nav__item"><a href="./why/index.html">Why</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="offer">
+      <div class="offer__left">
+        <img src="/imgs/1.png" alt="" class="offer__img" />
+        <div class="offer__users">
+          <div class="offer__participants">
+            <img src="/imgs/photo1.png" alt="participant" />
+            <img src="/imgs/photo2.png" alt="participant" />
+            <img src="/imgs/photo3.png" alt="participant" />
+            <img src="/imgs/photo4.png" alt="participant" />
+            <img src="/imgs/photo5.png" alt="participant" />
+          </div>
+          <p>More than 80k+ Students <span>joined!</span></p>
+        </div>
+      </div>
+      <div class="offer__right">
+        <h1 class="offer-title">
+          Grow Your Skills To Advance Your Career Path.
+        </h1>
+        <p class="offer-description">
+          We have something big for you who want to level up!
+        </p>
+        <span class="offer-input"
+          ><input type="text" placeholder="What do you want to learn..."
+        /></span>
+        <p class="offer-suggestion">Suggestions</p>
+        <div class="offer-predefined">
+          <div class="offer-filter">UI UX Design</div>
+          <div class="offer-filter">CSS Fundamental</div>
+          <div class="offer-filter">3D Design Illustration</div>
+          <div class="offer-filter">Website Development</div>
+          <div class="offer-filter">Logo Design</div>
+          <div class="offer-filter">Icon Design</div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js" defer></script>
   </body>
 </html>
